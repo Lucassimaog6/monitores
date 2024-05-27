@@ -1,0 +1,39 @@
+{
+    "name": "api_monitores",
+    "contributors": [
+        {
+            "name": "Lucas Ferreira Simão",
+            "email": "lucassimaog6@gmail.com"
+        },
+        {
+            "name": "Gabrielle ...",
+            "email": "example@mail.com"
+        },
+        {
+            "name": "Carlos ...",
+            "email": "example@mail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsnd --respawn --transpile-only src/app.ts",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "description": "Uma api para gerenciar o cadastro de ajudas entre os monitores",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mssql": "^10.0.2",
+        "sequelize": "^6.37.3",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21"
+    }
+}
